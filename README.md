@@ -25,9 +25,13 @@ Gen 	62.15581502	28.43913985	2.185573	0.042306164	2.407399308	121.9042307	2.4073
 
 
 Analysis:-
-Multiple R: -  here multiple R talks about the correlation between two variable that means here price is 96% depend on rest all independent variable
+
+Multiple R: -  here multiple R talks about the correlation between two variable that means here price is 96% depend on rest all independent variable.
+
 R Square:- here higher (93%) R Square values represent smaller differences between the observed data and the fitted values. Here 93% R Square is showing The data point is very close to regression line that means a very low noise in the data which seems fantastic.
+
 Adjusted R Square:-  here Adjusted R-square is 91% which indicates that there are new terms improving in the model that means here overspecified model is more likely to reduce the precision of coefficient estimates and predicted values. You don’t want to include more terms in the model then necessary.
+
 Standard Error:- Here standard error is 55% that indicates here prediction is quite more that means the model is having more dust which is estimation if standard error will be less than it will indicate that model is good(less dust is there).
 
 
@@ -86,6 +90,7 @@ output:-
 Screen	Capacity	Connectivity	Gen
    1                1                 0                  0
 Price 279
+
 Q3- if for the target price is the $400 what best product can be design? List the features.
 df_out[df_out['Pred_Price'] < 400]
 output:-
